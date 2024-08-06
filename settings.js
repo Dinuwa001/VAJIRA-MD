@@ -11,13 +11,13 @@ const FOOTERNAME = '> ＶＡＪＩＲＡ -  ＭＤ - Ｖ4';
 global.owner = process.env.OWNER_NUMBER  || '94757513753' ;  // ADD YOUR NUMBER WITHOUT +
     
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=yQ90QJ5A#OwlE9-o9yCfYKQnI1W-ZsIsbC4K60yvQOKgQjDJ0hxQ' ,
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=3QlTVYZD#2VjQVRDdXRP9h7dVyzf4SwGWcmeTjGibZCZFLxoL1QI' ,
 travaSend: process.env.TRAVA_SEND || '25' ,   
 MODERATORS : process.env.MODERATORS === undefined ? "94772801923,94787820101" : process.env.MODERATORS ,    
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE,/*add this in megabytes*/    
 OWNER_NAME: process.env.OWNER_NAME || 'D-KING' ,
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,
-LOGO: process.env.LOGO || `https://telegra.ph/file/ab0ea6ad90e2eb98090d9.jpg` ,
+LOGO: process.env.LOGO || `https://telegra.ph/Whatsapp-08-06-2` ,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,
 FOOTER: process.env.FOOTER || '‌👨‍💻 ＶＡＪＩＲＡ -  ＭＤ - Ｖ5 👨‍💻',    
 PREFIX: process.env.PREFIX || '.' ,
